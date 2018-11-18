@@ -71,7 +71,7 @@ def midi_to_array_one_hot(mid, quantization):
         if msg.type == 'note_on' or msg.type == 'note_off']
 
     # num_steps = int(round(track_len_ticks / float(ticks_per_quarter)*2**quantization/4))
-    num_steps = 512
+    num_steps = 1024
 
 
     normalized_num_steps = nearest_pow2(num_steps)
