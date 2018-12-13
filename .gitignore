@@ -105,4 +105,5 @@ venv.bak/
 
 # project specific
 data_mat
+./DS_Store
 
